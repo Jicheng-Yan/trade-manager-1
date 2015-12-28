@@ -41,7 +41,7 @@
 	<classpathentry kind="lib" path="lib/hibernate-validator-cdi-5.2.2.Final.jar"/>
 	<classpathentry kind="lib" path="lib/jandex-1.2.2.Final.jar"/>
 	<classpathentry kind="lib" path="lib/jboss-logging-3.3.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_65/lib/tools.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/java-8-oracle/lib/tools.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.37-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
