@@ -12,7 +12,7 @@ rem Change this dir to be the location for J2SE edition
 rem ***************************************************
 
 @if defined JAVA_HOME goto javahomedefined
-SET JAVA_HOME=C:\Program Files\Java\jdk1.8.0_60
+SET JAVA_HOME=C:/Program Files/Java/jdk1.8.0_40
 :javahomedefined
 
 rem set the path to include the bin dir
@@ -27,7 +27,7 @@ copy config\config.properties .
 echo Using default config.properties from /config dir.)
 
 rem set the timezone to be your markets zone so NYSE=America/New_York London=Europe/London
-SET TIMEZONE=JST
+SET TIMEZONE=America/New_York
 
 echo Path=%PATH%
 echo ClassPath=%CLASSPATH%

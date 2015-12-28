@@ -558,11 +558,11 @@ public class Tradingdays extends Aspect implements java.io.Serializable {
 				break;
 			}
 			case 6: {
-				contract.setStrike(new BigDecimal(token));// Strike
+				// Strike
 				break;
 			}
 			case 7: {
-				contract.setOptionType(token);// Put/Call
+				// Put/Call
 				break;
 			}
 			case 8: {
